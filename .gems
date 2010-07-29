@@ -1,2 +1,2 @@
-rack
+$FIXTURE_DIR/gems/rack-1.2.1.gem
 
