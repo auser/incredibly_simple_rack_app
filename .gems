@@ -1,2 +1,2 @@
-$FIXTURE_DIR/gems/rack-1.2.1.gem
+-l $FIXTURE_DIR/gems/rack-1.2.1.gem
 
