@@ -1,2 +1,4 @@
-run lambda { |env| [200, {'Content-Type'=>'text/plain'}, StringIO.new("Hello World!\n")] }
+use Rack::ContentLength
 
+app = lambda { |env| [200, { 'Content-Type' => 'text/html' }, 'Hello World'] }
+run app
