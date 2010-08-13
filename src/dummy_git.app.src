@@ -1,0 +1,14 @@
+{application, dummy_git,
+ [
+  {description, "Dummy git server"},
+  {vsn, "0.1"},
+  {id, "dummy_git_srv"},
+  {modules,      [
+                ]},
+  {registered,   []},
+  {applications, []},
+  {mod, {dummy_git, []}},
+  {env, [
+  ]}
+ ]
+}.
