@@ -1,4 +1,4 @@
 use Rack::ContentLength
 
-app = lambda { |env| [200, { 'Content-Type' => 'text/html' }, "Hello World #{ENV['NAME']}"] }
+app = lambda { |env| [200, { 'Content-Type' => 'text/html' }, "Hello Deploy Branch #{ENV['NAME']}"] }
 run app
